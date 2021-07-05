@@ -1,0 +1,35 @@
+// _config.scss
+// $primary-color: #e0ffff;
+$primary-color: #0e6cff;
+$light-color: #f4f4f4;
+$secondary-color: #ff8700;
+$font-stack: Arial, Helvetica, sans-serif;
+
+@import "../sass/_header";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $light-color;
+  font-family: $font-stack;
+  line-height: 1.6;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
