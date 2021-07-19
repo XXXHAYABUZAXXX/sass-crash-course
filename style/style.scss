@@ -1,11 +1,7 @@
-// _config.scss
-// $primary-color: #e0ffff;
-$primary-color: #0e6cff;
-$light-color: #f4f4f4;
-$secondary-color: #ff8700;
-$font-stack: Arial, Helvetica, sans-serif;
-
+@import "../style/config";
 @import "../sass/_header";
+@import "../style/utilities";
+@import "../style/buttons";
 
 * {
   box-sizing: border-box;
